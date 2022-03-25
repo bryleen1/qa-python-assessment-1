@@ -90,9 +90,9 @@ def two(arg1):
 	# <HINTS>
 
 	# How do we ignore case in a String? help(str) may offer some insight.
-
+import re
 def three(input):
-    return 0
+	return len(input, flags=re.IGNORECASE)
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
